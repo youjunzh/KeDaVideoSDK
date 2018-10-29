@@ -1,0 +1,36 @@
+{
+  "name": "KedaVideoSDK",
+  "version": "0.2",
+  "summary": "enable video feature with KeDa Video tech",
+  "homepage": "https://en.kedacom.com",
+  "license": {
+    "type": "Copyright",
+    "text": " Copyright 2018 Keda Com. All rights reserved.\n"
+  },
+  "authors": {
+    "tencent": "admin@kedacom.com"
+  },
+  "source": {
+    "http": "https://raw.githubusercontent.com/youjunzh/KeDaVideoSDK/master/SDK.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": false,
+  "source_files": "SDK/include/**/*.{h}",
+  "vendored_libraries": "SDK/lib/*.a",
+  "frameworks": [
+    "AVFoundation",
+    "OpenGLES",
+    "MediaPlayer",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "CoreAudio",
+    "AudioToolbox"
+  ],
+  "libraries": [
+    "stdc++.6.0.9"
+  ]
+}
